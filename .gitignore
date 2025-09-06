@@ -1,9 +1,10 @@
-# Ignore the data directory
+# Ignore the local data directory
 data/
 
-# Ignore common Python files
+# Ignore IDE-specific folders like the one you have
+.idea/
+
+# Ignore Python cache files
 __pycache__/
 *.pyc
-
-# Ignore Colab checkpoints
 .ipynb_checkpoints/
