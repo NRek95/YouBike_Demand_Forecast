@@ -1,0 +1,9 @@
+# Ignore the data directory
+data/
+
+# Ignore common Python files
+__pycache__/
+*.pyc
+
+# Ignore Colab checkpoints
+.ipynb_checkpoints/
